@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: sans-serif;
+    font-family: 'Mukta', sans-serif;
     width: 100%;
 }
 
@@ -123,4 +123,51 @@ body{
     padding-top: 50px;
     padding-bottom: 40px;
 }
+
+
 /*---------------contact-section------------*/
+
+#contact-section-id{
+    padding-top: 40px;
+    
+}
+.contact-icons{
+    padding-bottom: 70px;
+}
+.contact-section h3{
+    padding-top: 60px;
+    font-weight:700;
+    padding-bottom: 20px;
+}
+.contact-logo{
+    font-size: 25px;
+   color: black;
+   padding: 10px;
+  
+}
+.contact-logo:hover{
+    font-size: 26px;
+    color:rgb(110, 107, 107);
+}
+
+
+/*---------------instagram-handle------------*/
+
+.instagram-handle{
+    font-family: muk;
+    font-size: 25px;
+   color: black;
+   padding: 10px;
+   padding-right: 20px;
+   padding-bottom: 80px;
+}
+.instagram-handle:hover{
+    
+    color:rgb(110, 107, 107);
+}
+
+/*---------------instagram-photos------------*/
+
+.bottom-image img{
+    width: 100%;
+}
