@@ -1,16 +1,17 @@
 *{
-    margin: 0;
+    margin: 0 !important;
     padding: 0;
 }
 body{
     font-family: sans-serif;
+    width: 100%;
 }
 
 /*----------------main heading----------------*/
 
 .main-logo img{
     height: 40px;
-    padding-left: 15px;
+    padding-left: 30px;
 
 }
 .brand-name{
@@ -31,7 +32,7 @@ body{
 }
 .social-logo{
     color: black;
-    padding-left: 20px;
+    padding-left: 30px;
 
 }
 
@@ -42,7 +43,8 @@ body{
 
 
 .navbar{
-    position: 0 !important;
+ 
+    
 }
 .navbar-nav li{
     padding: 0 20px;
@@ -60,21 +62,24 @@ body{
 
 
 .carousel{
-    padding-left: 3%;
-    width: 98%;
-    
-}
+    width: 96%;
+    padding-left: 4%;
+      
+  }
 
 
 
 
 /*--------------about-section-----------*/
 
+.about-section{
+    width: 100%;
+    padding-bottom: 20px;
+}
 
 .about-section h3{
     padding-top: 60px;
-    font-size: 20;
-    font-weight: 700;
+    font-weight:700;
 }
 .about-section h4{
     padding-top: 30px;
@@ -82,11 +87,40 @@ body{
 }
 .about-section p{
     padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 
 
 
 /*--------------work-section-----------*/
 
-
-
+#work-section-id{
+    margin-left: 50px;
+    padding-top: 80px;
+}
+.work-section h3{
+    padding-top: 60px;
+    font-weight:700;
+}
+.service-box{
+    padding-top: 40px;
+}
+.service-box2{
+    padding-top: 40px;
+}
+.service-box img{
+    padding-top: 40px;
+    height: 450px;
+    width: 400px;
+}
+.service-box2 img{ 
+    padding-top: 40px;
+    height: 450px;
+    width: 400px;
+}
+.seemore-btn{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+/*---------------contact-section------------*/
