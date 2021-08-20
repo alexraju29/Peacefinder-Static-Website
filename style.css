@@ -69,3 +69,24 @@ body{
 
 
 /*--------------about-section-----------*/
+
+
+.about-section h3{
+    padding-top: 60px;
+    font-size: 20;
+    font-weight: 700;
+}
+.about-section h4{
+    padding-top: 30px;
+
+}
+.about-section p{
+    padding-top: 20px;
+}
+
+
+
+/*--------------work-section-----------*/
+
+
+
