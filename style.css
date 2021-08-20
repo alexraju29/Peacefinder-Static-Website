@@ -3,5 +3,52 @@
     padding: 0;
 }
 body{
-    font-family: 'Mukta', sans-serif;
+    font-family: sans-serif;
 }
+
+/*----------------main heading----------------*/
+
+.main-logo img{
+    height: 40px;
+    padding-left: 10px;
+
+}
+.brand-name{
+    font-family: 'Mukta', sans-serif;
+    font-weight: 600;
+    padding-left: 20%;
+}
+.brand a{
+    text-decoration: none;
+    color: black;
+}
+.brand a:hover{
+    color:rgb(110, 107, 107) ;
+}
+.logos a:hover{
+    color:rgb(110, 107, 107) ;
+}
+.social-logo{
+    color: black;
+    padding-left: 20px;
+
+}
+
+
+
+/*------------nav-bar section---------------*/
+
+
+
+.navbar{
+    position: 0 !important;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+.nav-link{
+    font-family:'Mukta', sans-serif ;
+    text-transform: uppercase;
+    color: black;  
+}
+
